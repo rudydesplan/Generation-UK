@@ -1,0 +1,1 @@
+select CountryRegionCode, sum(SalesYTD) as SalesYTD  , sum(CostYTD) as Cost, sum(SalesYTD - CostYTD) as Revenue from Sales.SalesTerritorygroup by CountryRegionCodeorder by SalesYTD desc;

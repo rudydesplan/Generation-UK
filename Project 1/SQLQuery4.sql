@@ -1,0 +1,1 @@
+SELECT E.SickLeaveHours, E.JobTitle, E.Gender	FROM HumanResources.Employee AS E	ORDER BY E.JobTitle;

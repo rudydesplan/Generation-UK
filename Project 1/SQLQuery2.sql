@@ -1,0 +1,1 @@
+SELECT E.VacationHours, SP.Bonus	FROM HumanResources.Employee AS E	inner join Sales.SalesPerson AS SP	ON E.BusinessEntityID = SP.BusinessEntityID	ORDER BY SP.Bonus;
